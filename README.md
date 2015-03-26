@@ -29,3 +29,5 @@ To run a terminal on the browser using the above technologies to connect to rpi 
   * Access, the server and port given while starting the client on your browser to see the terminal in action.
   * The server must be running on the domain and port passed to the client.
   * ex: **http://example.com:7777**
+
+- Port forwarding, must be done to access the client machine over ssh, on the desired machine running the server.

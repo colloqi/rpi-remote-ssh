@@ -6,15 +6,20 @@
 var http = require('http'),
     io = require('socket.io'),
     pty = require('pty'),
-    terminal = require('./mytermjs/lib');
+    terminal = require('./termjs/lib');
 process.title = 'term.js';
 
+/*
+ * substitute defaultdomain.com with a default domain of your choice or use domain param option on command line
+ * Uses default port as 8080, substitue with default port of your choice or use port param option on command line
+ * node sshclient.js domain.com port
+ */
 var stream,
     nodeParams = process.argv.slice(2),
-    server = nodeParams[0] || 'pisignage.com',
+    server = nodeParams[0] || 'defaultdomain.com',
     port = nodeParams[1] || '8080',
     dump = nodeParams[2] || false;
-    
+
 if (dump)
     stream = require('fs').createWriteStream(__dirname + '/dump.log');
 
