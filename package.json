@@ -1,0 +1,13 @@
+{
+  "name": "rpi-remote-ssh",
+  "version": "0.0.0",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "express": "^4.12.3",
+    "pty": "0.0.0",
+    "socket.io": "^1.3.5",
+    "socket.io-client": "^1.3.5"
+  }
+}
