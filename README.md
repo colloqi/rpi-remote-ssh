@@ -24,4 +24,4 @@ Keep your raspberry pi device connected to internet using wvdial.
 ##### Browser
   * Open browser  **http://myserverip-or-domainname:7777** to see the terminal in action.
 
-- Port forwarding, must be done to access the client machine over ssh, on the desired machine running the server.
+## Would you like to know about our Raspberry pi Digital Signage  solution, visit www.pisignage.com
