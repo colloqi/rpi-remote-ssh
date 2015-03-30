@@ -22,8 +22,6 @@ Keep your raspberry pi device connected to internet using wvdial.
   * This will start the client and is now ready to connect to the server.
 
 ##### Browser
-  * Access, the server and port given while starting the client on your browser to see the terminal in action.
-  * The server must be running on the domain and port passed to the client.
-  * ex: **http://myserverip-or-domainname:7777**
+  * Open browser  **http://myserverip-or-domainname:7777** to see the terminal in action.
 
 - Port forwarding, must be done to access the client machine over ssh, on the desired machine running the server.
